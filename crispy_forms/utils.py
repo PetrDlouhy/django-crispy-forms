@@ -8,7 +8,7 @@ from django.forms.forms import BoundField
 from django.template import Context
 from django.template.loader import get_template
 from django.utils.html import conditional_escape
-from django.utils.functional import memoize
+from crispy_forms.compatibility import memoize
 
 from .base import KeepContext
 from .compatibility import text_type, PY2
